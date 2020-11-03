@@ -1,0 +1,123 @@
+body { background-color: rgb(26, 25, 25);
+}
+header { 
+    border-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+    height: 15px;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 30px;
+    background-color: black;
+    font-size: 120%;
+    min-width: 960px;
+    max-width: 2048px;
+}
+nav a {
+    -webkit-transition: 2s ease-out;
+    -moz-transition: 2s ease-out;
+    transition: color 2s ease-out;
+}
+nav a:link {
+    color: rgb(0, 3, 5);
+    text-decoration:none;
+}
+nav a:visited {
+    color: grey;
+}
+nav a:hover{
+    color grey;
+}
+h1 {
+    color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+table {
+    border: 1px solid rgb(132, 134, 134);
+    table-layout:center;
+    text-align: center;
+}
+td, th{ border: 2px solid rgb(67, 68,68);
+padding: 0.5em; text-align: center; table-layout: center;}
+
+td text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: white;
+}
+
+dt {
+    color:#000033; font-weight: bold;
+}
+
+label{ float: left; display: block; text-align: right; width: 120px; padding-right: 32px;}
+
+input{display:blocked; margin-bottom: 30px;}
+textarea {
+    display: block; margin-bottom: 30px;
+}
+input[type="submit"] { margin-left: 130px;}
+
+main ul {
+    color: rgb(122, 122, 122);
+}
+
+footer {font-size: 75%; padding: 20px; background-color: rgb(36,35,35); font-style: italic; text-align: left; clear:right;}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 40, 41);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 960px;
+    max-width: 2048;
+    box-shadow: 1px 1px 1px #333333;
+    border: 1px solid #5d5d5f;
+}
+
+#desktopid{ display: inline;}
+
+#gallery {height:200px;}
+#gallery span{ position: aboslute;
+left: -1000px; 
+opacity: 0;
+transition: opacity 3s ease-in-out;}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 120px;
+    text-align: center;
+    opacity: 1;
+}
+
+main{
+    padding-top:1px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    padding-left:5px;
+    color: rgb(138,135,135);
+    display: block;
+    text-align: center;
+    background-color: rgb(26,25,25);
+}
+
+header, main, nav, footer, figure, figcaption, aside, sextion, article { display: block;}
